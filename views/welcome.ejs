@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<!--
+	Prism by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>SE | Sports</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="css/main1.css" />
+
+	</head>
+	<body>
+		<!-- Banner -->
+		<section id="credentials">
+			<div class="inner split">
+					<section>
+						<p>Change password</p>
+					</section>
+			</div>
+		</section>
+			<section id="banner">
+				<div class="inner split">
+					<section>
+						<h2>Hello <%=name%>. Welcome to our family. </h2>
+					</section>
+					<section>
+						<p>This page will walk you through different sports sections and the respective coordinators. We invite you to play and have fun with us.</p>
+						<ul class="actions">
+							<li><a href="#sportsections" class="button special">Get started</a></li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner split">
+					<section>
+						<h2>Our arsenal</h2>
+						<img src="images/shubh.jpg" alt="Shubham" class="shivpic">
+						<p>Here is a list of different sports items which our sports club has so far.You can issue them anytime by contacting any one of the coordinators. You are expected to resubmit the item once you issue it or you may be liable to penalties.</p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">Learn more</a></li>
+						</ul>
+					</section>
+					<section>
+						<ul class="checklist">
+							<li>Football</li>
+							<li>Basketball</li>
+							<li>Volleyball + Net</li>
+							<li>Cricket Bats with proper playing kits</li>
+							<li>Chess board</li>
+							<li>Carrom</li>
+							<li>Skipping Ropes</li>
+							<li>Cones and Markers</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="sportsection" class="wrapper style2 alt">
+				<div class="inner">
+					<section id="sportsection">
+						<div class="spotlight">
+							<div class="image">
+								<img src="images/Sports-Cricket.jpg" alt="" />
+							</div>
+							<div class="content">
+								<h3>Cricket</h3>
+								<p>Hello <%=name%>. Myself Shubham. I coordinate this section. We have our cricket matches at the weakends early morning at JNU Stadium.You are always invited. I also organise trials for our SE team before any upcoming events. You will surely be notified for the same.We are always open to see the talent hidden inside you. For any issues, feel free to contact me</p>
+								<form class="/update"  method="post">
+									<input type="checkbox" name="check" id="check">
+									<label for="check">I am interested for any help needed.</label>
+								</form>
+
+							</div>
+						</div>
+						<div class="spotlight">
+							<div class="image">
+								<img src="images/sports-football.webp" alt="" />
+							</div>
+							<div class="content">
+								<h3>Football</h3>
+								<p>Hey <%=name%>. I am Shivam Jha. I am the coordinator of the football team. We generally have our practice game sessions at around 5 PM everyday at JNU stadium. Everyone is welcomed to attend our sessions. We go through proper selections procedures for our SE football team and attending evening practice game sessions might take you closer to your position in our team. All our team members are always there for each other. Feel free to contact me anytime.</p>
+
+							</div>
+						</div>
+						<div class="spotlight">
+							<div class="image">
+								<img src="images/sports-volleyball.webp" alt="" />
+							</div>
+							<div class="content">
+								<h3>Volleyball</h3>
+								<p>Greetings <%=name%>. Myself Abhishek welcomes you in our club .Volleyball is a very joyful sport. We ll definitely have a great time together. We use to play volleyball everyday at 5 pm at JNU stadium. You are most welcomed.We also have team selections for our school's volleyball team. I m very eager to see the talent in you. For any issue,please contact me directly.</p>
+
+							</div>
+						</div>
+						<div class="spotlight">
+							<div class="image">
+								<img src="images/badminton.jpg" alt="" />
+							</div>
+							<div class="content">
+								<h3>Badminton</h3>
+								<p>Hello, myself Sujeet. I coordinate this badminton section. We have a badminton court in our hostel and we try to provide all the necessary equipments to those who are interested in playing in the evening. We also schedule and conduct our intra hostel and intra school badminton events twice in an year for our SE badminton team. We also welcome those who are interested in learning or improvisation. In the case you need any kind of information or help, feel free to contact me</p>
+
+							</div>
+						</div>
+						<div class="spotlight">
+							<div class="image">
+								<img src="images/TT_Chess.jpeg" alt="" />
+							</div>
+							<div class="content">
+								<h3>TT / Chess</h3>
+								<p>Greetings <%=name%>. Myself Deepak welcomes you in our club .I ll handle the TT and Chess part. We often organise intraschool and interschool TT and Chess tournaments. We are very eager to see that talent in you. Very nice to have you. Please be in touch. </p>
+
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="wrapper">
+				<div class="inner split">
+					<section>
+						<h2>Comment section</h2>
+						<p>You can write any comment regarding our club for example shortage of equipments, lack of communication , not proper management ,lack of regularity etc along with your suggections. Lets play and grow together.</p>
+						<form action="/welcome" class="alt" method="POST">
+							<div class="row uniform">
+								<div class="6u 12u$(xsmall)">
+									<input name="name" required placeholder="Name" type="text">
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<input name="email" required placeholder="Email" type="email">
+								</div>
+								<div class="12u$">
+									<textarea name="message" placeholder="Message" rows="4"></textarea>
+ 								</div>
+ 							</div>
+ 							<ul class="actions">
+ 								<li><button class="alt" value="Send message" type="submit">Send message</li>
+ 							</ul>
+ 						</form>
+					</section>
+					<section>
+						<ul class="contact">
+
+							<li class="fa-home">Damodar Hostel ,JNU<br/>Helpline: 6264851643</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					&copy; Untitled. All rights reserved. Images: <a href="http://unsplash.com">Unsplash</a>. Design: <a href="http://templated.co">TEMPLATED</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
